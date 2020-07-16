@@ -48,7 +48,7 @@ def wasd_movement():
     time.sleep(0.25)
     pydirectinput.keyUp('d')
     time.sleep(1)
-    pydirectinput.move(300, None)
+    #pydirectinput.move(300, None)
 
 
 def basic_click():
@@ -77,7 +77,7 @@ def arrow_keys():
 
 if __name__ == '__main__':
     
-    #time.sleep(4)
+    time.sleep(4)
     #trace_square()
     #time.sleep(1)
     #mouse_return_accuracy()
@@ -90,7 +90,4 @@ if __name__ == '__main__':
 
     time.sleep(6)
     arrow_keys()
-
-    
-    
 
